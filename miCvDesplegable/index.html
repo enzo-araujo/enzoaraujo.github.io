@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>miCV</title>
+</head>
+
+<body>
+    <header>
+        <div class="menu">
+            <button type="button" id="botonExperienciaLaboral" onclick="mostrarExpLab()">Experiencia laboral</button>
+            <button type="button" id="botonEducacion" onclick="mostrarEducacion()">Educacion</button>
+            <button type="button" id="botonHabilidades" onclick="mostrarHabilidades()">Habilidades</button>
+        </div> 
+    </header>
+         
+    <div class="contenedorIzquierda"> 
+        <img src="fotodeperfil.jpg" alt="foto de perfil de usuario" id="foto"><br><br>
+    
+        <h2>Datos personales</h2>
+        <div>
+            <p>Nombre: Enzo Andrés Araujo</p>
+            <p>Fecha de nacimiento 03/10/1987</p>
+            <p>Nacionalidad: Argentino</p>
+        </div><br>
+
+        <h2>Datos de contacto</h2>
+        <div>
+            <p>Telefono: 351-5925833</p>
+            <p>Correo: enzoandresaraujo@gmail.com</p>            
+            <p>Direccion: Buenos Aires 521, 9A</p>
+        </div>
+    </div>
+
+    <div class="contenedorDerecha">     
+        <div id="experienciaLaboral">
+            <div class="textoExperienciaLaboral">
+                <h2>Experiencia laboral</h2>
+                <p>Este es la experiencia laboral</p>
+            </div>
+        </div><br>
+        
+        <div id="educacion">
+            <div class="textoEducacion">
+                <h2>Educacion</h2>
+                <p>Esta es la educacion</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="boton">
+        <button id="boton">Generar Usuario</button>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>

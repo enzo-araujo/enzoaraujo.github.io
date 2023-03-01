@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <title>Formulario CV</title>
+        <style>
+        
+        </style>
+    </head>
+	<body>
+		<form action="/my-handling-form-page" method="post">
+			<ul>
+
+        <h2>Datos personales</h2>
+				<li>
+					<label for="name">Nombre:</label>
+					<input type="text" id="name" name="user_name" />
+				</li>
+        <li>
+          <label for="lname">Apellido:</label>
+					<input type="text" id="lname" name="user_lname" />
+        </li>
+        <li>
+          <label for="dni">DNI:</label>
+					<input type="number" id="dni" name="user_dni" />
+        </li>
+        <li>
+          <label for="fechanacimiento">Fecha de nacimiento:</label>
+					<input type="date" id="fechanacimiento" name="user_nacimiento" />
+        </li>
+        <li>
+          <label for="nacionalidad">Nacionalidad:</label>
+					<input type="text" id="nacionalidad" name="user_nacionalidad" />
+        </li>
+
+        <h2>Datos de contacto</h2>
+				<li>
+          <label for="telefono">Teléfono:</label>
+					<input type="number" id="telefono" name="user_telefono" />
+        </li>
+        <li>
+					<label for="mail">E-mail:</label>
+					<input type="email" id="mail" name="user_mail" />
+				</li>
+        <li>
+          <label for="direccion">Dirección:</label>
+					<input type="text" id="direccion" name="user_direccion" />
+        </li>
+
+        <h2>Experiencia laboral:</h2>
+        <li>
+					<label for="empresa">Empresa</label>
+					<input type="text" id="empresa" name="user_empresa" />
+				</li>
+        <li>
+					<label for="puesto">Puesto:</label>
+					<input type="text" id="puesto" name="user_puesto" />
+				</li>
+        <li>
+					<label for="fechainicio">Fecha de inicio:</label>
+					<input type="date" id="fechainicio" name="user_fechainicio" />
+				</li>
+        <li>
+					<label for="fechafin">Fecha de finalización:</label>
+					<input type="date" id="fechafin" name="user_fechafin" />
+				</li>
+        
+        <h2>Habilidades</h2>
+        <li>
+          <textarea id="habilidades" name="user_habilidades"></textarea>
+        </li>
+				
+				<li class="button">
+					<button type="submit">Guardar datos</button>
+				</li>
+			</ul>
+		</form>
+	</body>
+</html>
